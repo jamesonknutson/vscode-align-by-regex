@@ -11,7 +11,7 @@
         "url": "https://github.com/janjoerke/vscode-align-by-regex.git"
     },
     "engines": {
-        "vscode": "^1.25.0"
+        "vscode": "^1.91.0"
     },
     "categories": [
         "Formatters"
@@ -53,10 +53,11 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^20.14.10",
+        "@types/vscode": "^1.91.0",
         "tslint": "^5.8.0",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^5.5.3",
+        "vscode-test": "^1.6.1"
     }
 }
