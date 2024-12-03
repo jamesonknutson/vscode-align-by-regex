@@ -10,5 +10,18 @@
     "typescript.tsc.autoDetect": "off",
     // Set the tab size for workspaces so that the test with tab size alignment always works
     "editor.tabSize": 4,
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#3399ff",
+        "activityBar.background": "#3399ff",
+        "activityBarBadge.background": "#bf0060",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "sash.hoverBorder": "#3399ff",
+        "statusBar.background": "#007fff",
+        "statusBarItem.hoverBackground": "#3399ff",
+        "statusBarItem.remoteBackground": "#007fff",
+        "titleBar.activeBackground": "#007fff",
+        "titleBar.inactiveBackground": "#007fff99"
+    },
+    "peacock.color": "#007fff"
 }
